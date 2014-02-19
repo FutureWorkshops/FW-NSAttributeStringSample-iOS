@@ -46,6 +46,7 @@
 		073F73E618B51C080076E762 /* Circle_Red_S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Circle_Red_S.png; sourceTree = "<group>"; };
 		073F73E818B51DD90076E762 /* FWTWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWTWebViewController.h; sourceTree = "<group>"; };
 		073F73E918B51DD90076E762 /* FWTWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWTWebViewController.m; sourceTree = "<group>"; };
+		073F73EC18B51F440076E762 /* FWTHTMLSyntax.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FWTHTMLSyntax.h; sourceTree = "<group>"; };
 		B7402BC416C26CE70014570E /* nsattrib-string-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nsattrib-string-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7402BC816C26CE70014570E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B7402BCA16C26CE70014570E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -97,13 +98,22 @@
 		073F73E218B511940076E762 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				073F73E018B511900076E762 /* FWTiPadStoryboard.storyboard */,
 				073F73E818B51DD90076E762 /* FWTWebViewController.h */,
 				073F73E918B51DD90076E762 /* FWTWebViewController.m */,
-				073F73E018B511900076E762 /* FWTiPadStoryboard.storyboard */,
 				073F73E318B512D10076E762 /* FWTEditorViewController.h */,
 				073F73E418B512D10076E762 /* FWTEditorViewController.m */,
 			);
 			name = UI;
+			sourceTree = "<group>";
+		};
+		073F73EB18B51F2C0076E762 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				073F73E618B51C080076E762 /* Circle_Red_S.png */,
+				073F73EC18B51F440076E762 /* FWTHTMLSyntax.h */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 		B7402BB916C26CE70014570E = {
@@ -142,7 +152,7 @@
 		B7402BCE16C26CE70014570E /* nsattrib-string-sample */ = {
 			isa = PBXGroup;
 			children = (
-				073F73E618B51C080076E762 /* Circle_Red_S.png */,
+				073F73EB18B51F2C0076E762 /* Assets */,
 				073F73E218B511940076E762 /* UI */,
 				B7402C2E16C2DD800014570E /* FWTAppDelegate.h */,
 				B7402C2F16C2DD800014570E /* FWTAppDelegate.m */,
