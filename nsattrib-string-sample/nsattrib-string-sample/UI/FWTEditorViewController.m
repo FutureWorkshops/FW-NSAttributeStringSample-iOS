@@ -85,6 +85,15 @@ NSTimeInterval const FWTEditorTypingTimerInterval = 0.3;
 }
 
 #pragma mark - UITextFieldDelegate methods
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    CGFloat scrollCompleted = (scrollView.contentOffset.y * 100)/(scrollView.contentSize.height-CGRectGetHeight(scrollView.frame));
+    
+    CGFloat previewScroll = (scrollCompleted * (self.previewerTextView.contentSize.height-CGRectGetHeight(self.previewerTextView.frame)))/100;
+    
+    [self.previewerTextView setContentOffset:CGPointMake(0, previewScroll)];
+}
+
 - (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
 {
     if (self.timer != nil){
