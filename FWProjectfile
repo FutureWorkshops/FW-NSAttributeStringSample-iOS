@@ -1,0 +1,14 @@
+project_name: nsattrib-string-sample # required
+class_prefix: FWT # required
+# target_name: nsattrib-string-sample # default: project_name
+# binary_name: nsattrib-string-sample # default: project_name
+# xcode_scheme:
+#     develop:nsattrib-string-sample # default: project_name
+#     testing:nsattrib-string-sample-Testing # default: project_name-Testing
+#     release:nsattrib-string-sample-Release # default: project_name-Release
+# tests_target_name: nsattrib-string-sampleTests # default: project_nameTests
+# xcode_workspace: nsattrib-string-sample.xcworkspace # default: [project_root]/project_name.xcworkspace
+# xcode_project: nsattrib-string-sample/nsattrib-string-sample.xcodeproj # default: [project_root]/project_name/project_name.xcproj
+# source_root: nsattrib-string-sample/nsattrib-string-sample # default: [project_root]/project_name/target_name/
+# tests_source_root: nsattrib-string-sample/nsattrib-string-sampleTests # default: [project_root]/project_name/tests_target_name/
+# frank_root: nsattrib-string-sample/nsattrib-string-sample/Frank # default: [project_root]/project_name/target_name/Frank
