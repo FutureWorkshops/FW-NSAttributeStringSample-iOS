@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		073F73E118B511900076E762 /* FWTiPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073F73E018B511900076E762 /* FWTiPadStoryboard.storyboard */; };
+		073F73E518B512D10076E762 /* FWTEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073F73E418B512D10076E762 /* FWTEditorViewController.m */; };
 		60166DAFA62941A2945C6A21 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F569C9A032924C35ACE15853 /* libPods.a */; };
 		B7402BC916C26CE70014570E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7402BC816C26CE70014570E /* UIKit.framework */; };
 		B7402BCB16C26CE70014570E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7402BCA16C26CE70014570E /* Foundation.framework */; };
@@ -39,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		073F73E018B511900076E762 /* FWTiPadStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = FWTiPadStoryboard.storyboard; path = UI/FWTiPadStoryboard.storyboard; sourceTree = "<group>"; };
+		073F73E318B512D10076E762 /* FWTEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FWTEditorViewController.h; path = UI/FWTEditorViewController.h; sourceTree = "<group>"; };
+		073F73E418B512D10076E762 /* FWTEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FWTEditorViewController.m; path = UI/FWTEditorViewController.m; sourceTree = "<group>"; };
 		B7402BC416C26CE70014570E /* nsattrib-string-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nsattrib-string-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7402BC816C26CE70014570E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B7402BCA16C26CE70014570E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -92,6 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				073F73E018B511900076E762 /* FWTiPadStoryboard.storyboard */,
+				073F73E318B512D10076E762 /* FWTEditorViewController.h */,
+				073F73E418B512D10076E762 /* FWTEditorViewController.m */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -341,6 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				073F73E518B512D10076E762 /* FWTEditorViewController.m in Sources */,
 				B7402BD516C26CE70014570E /* main.m in Sources */,
 				B7402C3016C2DD800014570E /* FWTAppDelegate.m in Sources */,
 			);
@@ -423,6 +429,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/nsattrib-string-sample/Supporting Files/nsattrib-string-sample-Info.plist";
 				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/nsattrib-string-sample/Supporting Files/info.plist.h";
 				INFOPLIST_PREPROCESS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "nsattrib-string-sample";
 				WRAPPER_EXTENSION = app;
 			};
@@ -508,6 +515,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/nsattrib-string-sample/Supporting Files/nsattrib-string-sample-Info.plist";
 				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/nsattrib-string-sample/Supporting Files/info.plist.h";
 				INFOPLIST_PREPROCESS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "nsattrib-string-sample";
 				WRAPPER_EXTENSION = app;
 			};
@@ -522,6 +530,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/nsattrib-string-sample/Supporting Files/nsattrib-string-sample-Info.plist";
 				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/nsattrib-string-sample/Supporting Files/info.plist.h";
 				INFOPLIST_PREPROCESS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "nsattrib-string-sample";
 				WRAPPER_EXTENSION = app;
 			};
