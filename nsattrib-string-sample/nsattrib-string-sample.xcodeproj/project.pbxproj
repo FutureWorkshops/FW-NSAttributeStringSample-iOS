@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		073F73E118B511900076E762 /* FWTiPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073F73E018B511900076E762 /* FWTiPadStoryboard.storyboard */; };
 		073F73E518B512D10076E762 /* FWTEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073F73E418B512D10076E762 /* FWTEditorViewController.m */; };
-		60166DAFA62941A2945C6A21 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F569C9A032924C35ACE15853 /* libPods.a */; };
+		073F73E718B51C080076E762 /* Circle_Red_S.png in Resources */ = {isa = PBXBuildFile; fileRef = 073F73E618B51C080076E762 /* Circle_Red_S.png */; };
+		073F73EA18B51DD90076E762 /* FWTWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073F73E918B51DD90076E762 /* FWTWebViewController.m */; };
 		B7402BC916C26CE70014570E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7402BC816C26CE70014570E /* UIKit.framework */; };
 		B7402BCB16C26CE70014570E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7402BCA16C26CE70014570E /* Foundation.framework */; };
 		B7402BCD16C26CE70014570E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7402BCC16C26CE70014570E /* CoreGraphics.framework */; };
@@ -42,6 +43,9 @@
 		073F73E018B511900076E762 /* FWTiPadStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = FWTiPadStoryboard.storyboard; path = UI/FWTiPadStoryboard.storyboard; sourceTree = "<group>"; };
 		073F73E318B512D10076E762 /* FWTEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FWTEditorViewController.h; path = UI/FWTEditorViewController.h; sourceTree = "<group>"; };
 		073F73E418B512D10076E762 /* FWTEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FWTEditorViewController.m; path = UI/FWTEditorViewController.m; sourceTree = "<group>"; };
+		073F73E618B51C080076E762 /* Circle_Red_S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Circle_Red_S.png; sourceTree = "<group>"; };
+		073F73E818B51DD90076E762 /* FWTWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWTWebViewController.h; sourceTree = "<group>"; };
+		073F73E918B51DD90076E762 /* FWTWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWTWebViewController.m; sourceTree = "<group>"; };
 		B7402BC416C26CE70014570E /* nsattrib-string-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nsattrib-string-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7402BC816C26CE70014570E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B7402BCA16C26CE70014570E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -74,7 +78,6 @@
 				B7402BC916C26CE70014570E /* UIKit.framework in Frameworks */,
 				B7402BCB16C26CE70014570E /* Foundation.framework in Frameworks */,
 				B7402BCD16C26CE70014570E /* CoreGraphics.framework in Frameworks */,
-				60166DAFA62941A2945C6A21 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +97,8 @@
 		073F73E218B511940076E762 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				073F73E818B51DD90076E762 /* FWTWebViewController.h */,
+				073F73E918B51DD90076E762 /* FWTWebViewController.m */,
 				073F73E018B511900076E762 /* FWTiPadStoryboard.storyboard */,
 				073F73E318B512D10076E762 /* FWTEditorViewController.h */,
 				073F73E418B512D10076E762 /* FWTEditorViewController.m */,
@@ -137,6 +142,7 @@
 		B7402BCE16C26CE70014570E /* nsattrib-string-sample */ = {
 			isa = PBXGroup;
 			children = (
+				073F73E618B51C080076E762 /* Circle_Red_S.png */,
 				073F73E218B511940076E762 /* UI */,
 				B7402C2E16C2DD800014570E /* FWTAppDelegate.h */,
 				B7402C2F16C2DD800014570E /* FWTAppDelegate.m */,
@@ -267,6 +273,7 @@
 				B7402C1516C270FC0014570E /* Default.png in Resources */,
 				B7402C1616C270FC0014570E /* Default@2x.png in Resources */,
 				B7402C1816C275940014570E /* fw-shared.xcconfig in Resources */,
+				073F73E718B51C080076E762 /* Circle_Red_S.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +356,7 @@
 				073F73E518B512D10076E762 /* FWTEditorViewController.m in Sources */,
 				B7402BD516C26CE70014570E /* main.m in Sources */,
 				B7402C3016C2DD800014570E /* FWTAppDelegate.m in Sources */,
+				073F73EA18B51DD90076E762 /* FWTWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +439,7 @@
 				INFOPLIST_PREPROCESS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "nsattrib-string-sample";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Testing;
@@ -517,6 +526,7 @@
 				INFOPLIST_PREPROCESS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "nsattrib-string-sample";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -532,6 +542,7 @@
 				INFOPLIST_PREPROCESS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "nsattrib-string-sample";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
