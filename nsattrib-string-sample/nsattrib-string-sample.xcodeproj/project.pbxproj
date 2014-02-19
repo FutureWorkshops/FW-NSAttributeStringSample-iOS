@@ -27,6 +27,7 @@
 		B7402C1816C275940014570E /* fw-shared.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B7402C1716C275930014570E /* fw-shared.xcconfig */; };
 		B7402C1916C275940014570E /* fw-shared.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B7402C1716C275930014570E /* fw-shared.xcconfig */; };
 		B7402C3016C2DD800014570E /* FWTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7402C2F16C2DD800014570E /* FWTAppDelegate.m */; };
+		C7DFCAA816994AAC84585BB9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F569C9A032924C35ACE15853 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 				B7402BC916C26CE70014570E /* UIKit.framework in Frameworks */,
 				B7402BCB16C26CE70014570E /* Foundation.framework in Frameworks */,
 				B7402BCD16C26CE70014570E /* CoreGraphics.framework in Frameworks */,
+				C7DFCAA816994AAC84585BB9 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,12 +444,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F582F4F638BB4C768144B78B /* Pods.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "\"${PODS_ROOT}\"/**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "nsattrib-string-sample/Supporting Files/nsattrib-string-sample-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/nsattrib-string-sample/Supporting Files/nsattrib-string-sample-Info.plist";
 				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/nsattrib-string-sample/Supporting Files/info.plist.h";
 				INFOPLIST_PREPROCESS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "\"${PODS_ROOT}\"/**";
 				PRODUCT_NAME = "nsattrib-string-sample";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
@@ -529,12 +533,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F582F4F638BB4C768144B78B /* Pods.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "\"${PODS_ROOT}\"/**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "nsattrib-string-sample/Supporting Files/nsattrib-string-sample-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/nsattrib-string-sample/Supporting Files/nsattrib-string-sample-Info.plist";
 				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/nsattrib-string-sample/Supporting Files/info.plist.h";
 				INFOPLIST_PREPROCESS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "\"${PODS_ROOT}\"/**";
 				PRODUCT_NAME = "nsattrib-string-sample";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
@@ -545,12 +551,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F582F4F638BB4C768144B78B /* Pods.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "\"${PODS_ROOT}\"/**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "nsattrib-string-sample/Supporting Files/nsattrib-string-sample-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/nsattrib-string-sample/Supporting Files/nsattrib-string-sample-Info.plist";
 				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/nsattrib-string-sample/Supporting Files/info.plist.h";
 				INFOPLIST_PREPROCESS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "\"${PODS_ROOT}\"/**";
 				PRODUCT_NAME = "nsattrib-string-sample";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
