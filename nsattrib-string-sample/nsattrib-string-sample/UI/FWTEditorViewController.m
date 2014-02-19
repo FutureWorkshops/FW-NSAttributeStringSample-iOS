@@ -10,10 +10,14 @@
 #import "FWTWebViewController.h"
 #import "FWTHTMLSyntax.h"
 
+NSTimeInterval const FWTEditorTypingTimerInterval = 0.3;
+
 @interface FWTEditorViewController () <UITextViewDelegate>
 
 @property (nonatomic, weak) IBOutlet UITextView *editorTextView;
 @property (nonatomic, weak) IBOutlet UITextView *previewerTextView;
+
+@property (nonatomic, strong) NSTimer *timer;
 
 @end
 
@@ -47,7 +51,7 @@
     [self.editorTextView.layer setBorderWidth:1.f];
     [self.editorTextView.layer setBorderColor:[self _borderColor].CGColor];
     
-    [self _renderPlainText:self.editorTextView.text];
+    [self _renderPlainText];
 }
 
 - (void)_clearText
@@ -56,8 +60,10 @@
     self.previewerTextView.text = @"";
 }
 
-- (void)_renderPlainText:(NSString*)plainText
+- (void)_renderPlainText
 {
+    NSString *plainText = self.editorTextView.text;
+    
     NSMutableAttributedString *attributedProductDescription = [[NSMutableAttributedString alloc] initWithData:[plainText dataUsingEncoding:NSUnicodeStringEncoding]
                                                                                                       options:@{NSDocumentTypeDocumentAttribute:NSHTMLTextDocumentType}
                                                                                            documentAttributes:nil
@@ -68,7 +74,7 @@
 - (IBAction)_presentHTMLSyntax:(id)sender
 {
     [self.editorTextView setText:kSyntax];
-    [self _renderPlainText:kSyntax];
+    [self _renderPlainText];
 }
 
 - (void)_presentAbout
@@ -79,11 +85,25 @@
 }
 
 #pragma mark - UITextFieldDelegate methods
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    CGFloat scrollCompleted = (scrollView.contentOffset.y * 100)/(scrollView.contentSize.height-CGRectGetHeight(scrollView.frame));
+    
+    CGFloat previewScroll = (scrollCompleted * (self.previewerTextView.contentSize.height-CGRectGetHeight(self.previewerTextView.frame)))/100;
+    
+    [self.previewerTextView setContentOffset:CGPointMake(0, previewScroll)];
+}
+
 - (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
 {
-    NSString *newString = [textView.text stringByReplacingCharactersInRange:range withString:text];
+    if (self.timer != nil){
+        NSTimeInterval elapsedTime = [[NSDate date] timeIntervalSinceDate:self.timer.fireDate];
+        if (elapsedTime < FWTEditorTypingTimerInterval){
+            [self.timer invalidate];
+        }
+    }
     
-    [self _renderPlainText:newString];
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:FWTEditorTypingTimerInterval target:self selector:@selector(_renderPlainText) userInfo:nil repeats:NO];
     
     return YES;
 }
