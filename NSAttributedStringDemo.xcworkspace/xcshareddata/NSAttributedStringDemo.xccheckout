@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>4D9BBE2E-7826-4A52-8A86-5D1F9244AACC</string>
+	<string>64BBAE9C-2FE9-4350-BD1B-3FB93DCAFEF3</string>
 	<key>IDESourceControlProjectName</key>
-	<string>nsattrib-string-sample</string>
+	<string>NSAttributedStringDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>86C4F19E-35A8-480B-9334-4917EC961016</key>
-		<string>ssh://github.com/FutureWorkshops/FW-NSAttributeStringSample-iOS.git</string>
+		<key>1DA8957D-E094-4345-B1C8-04A269A6CCD5</key>
+		<string>ssh://github.com/FutureWorkshops/FWToolkit.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>nsattrib-string-sample.xcworkspace</string>
+	<string>meta_templates/meta_template/xcode/NSAttributedStringDemo.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>86C4F19E-35A8-480B-9334-4917EC961016</key>
-		<string>..</string>
+		<key>1DA8957D-E094-4345-B1C8-04A269A6CCD5</key>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/FutureWorkshops/FW-NSAttributeStringSample-iOS.git</string>
+	<string>ssh://github.com/FutureWorkshops/FWToolkit.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>86C4F19E-35A8-480B-9334-4917EC961016</string>
+	<string>1DA8957D-E094-4345-B1C8-04A269A6CCD5</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>86C4F19E-35A8-480B-9334-4917EC961016</string>
+			<string>1DA8957D-E094-4345-B1C8-04A269A6CCD5</string>
 			<key>IDESourceControlWCCName</key>
-			<string>NSAttributedHTMLSample</string>
+			<string>FWToolkit</string>
 		</dict>
 	</array>
 </dict>

@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'nsattrib-string-sample' target in the 'nsattrib-string-sample' project
+// Prefix header for all source files of the 'NSAttributedStringDemo' target in the 'NSAttributedStringDemo' project
 //
 
 #import <Availability.h>

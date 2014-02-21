@@ -1,14 +1,14 @@
 //
 //  __project_name__Tests.m
-//  nsattrib-string-sampleTests
+//  NSAttributedStringDemoTests
 //
-//  Created by Carlos Vidal on 06/02/2013.
+//  Created by Fabio Gallonetto on 06/02/2013.
 //  Copyright (c) 2013 Future Workshops. All rights reserved.
 //
 
-#import "nsattrib-string-sampleTests.h"
+#import "NSAttributedStringDemoTests.h"
 
-@implementation nsattrib-string-sampleTests
+@implementation NSAttributedStringDemoTests
 
 - (void)setUp
 {
@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    
+    STAssertFalse(NO, @"Unit tests are not implemented yet in NSAttributedStringDemoTests");
 }
 
 @end

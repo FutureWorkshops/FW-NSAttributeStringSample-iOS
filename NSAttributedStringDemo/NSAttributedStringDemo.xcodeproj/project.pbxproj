@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		073F73E118B511900076E762 /* FWTiPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073F73E018B511900076E762 /* FWTiPadStoryboard.storyboard */; };
-		073F73E518B512D10076E762 /* FWTEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073F73E418B512D10076E762 /* FWTEditorViewController.m */; };
-		073F73E718B51C080076E762 /* Circle_Red_S.png in Resources */ = {isa = PBXBuildFile; fileRef = 073F73E618B51C080076E762 /* Circle_Red_S.png */; };
-		073F73EA18B51DD90076E762 /* FWTWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073F73E918B51DD90076E762 /* FWTWebViewController.m */; };
+		5527E95F114E441F9B9510D5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60852DE60BDF4C3493AB882A /* libPods.a */; };
+		94BE8D495B2D4D3E9EF5FB79 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60852DE60BDF4C3493AB882A /* libPods.a */; };
 		B7402BC916C26CE70014570E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7402BC816C26CE70014570E /* UIKit.framework */; };
 		B7402BCB16C26CE70014570E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7402BCA16C26CE70014570E /* Foundation.framework */; };
 		B7402BCD16C26CE70014570E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7402BCC16C26CE70014570E /* CoreGraphics.framework */; };
@@ -20,14 +18,17 @@
 		B7402BE816C26CE70014570E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7402BC816C26CE70014570E /* UIKit.framework */; };
 		B7402BE916C26CE70014570E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7402BCA16C26CE70014570E /* Foundation.framework */; };
 		B7402BF116C26CE70014570E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7402BEF16C26CE70014570E /* InfoPlist.strings */; };
-		B7402BFF16C26ED80014570E /* nsattrib-string-sampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7402BFE16C26ED80014570E /* nsattrib-string-sampleTests.m */; };
+		B7402BFF16C26ED80014570E /* NSAttributedStringDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7402BFE16C26ED80014570E /* NSAttributedStringDemoTests.m */; };
 		B7402C1416C270FC0014570E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7402C1116C270FC0014570E /* Default-568h@2x.png */; };
 		B7402C1516C270FC0014570E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B7402C1216C270FC0014570E /* Default.png */; };
 		B7402C1616C270FC0014570E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7402C1316C270FC0014570E /* Default@2x.png */; };
 		B7402C1816C275940014570E /* fw-shared.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B7402C1716C275930014570E /* fw-shared.xcconfig */; };
 		B7402C1916C275940014570E /* fw-shared.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B7402C1716C275930014570E /* fw-shared.xcconfig */; };
 		B7402C3016C2DD800014570E /* FWTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7402C2F16C2DD800014570E /* FWTAppDelegate.m */; };
-		C7DFCAA816994AAC84585BB9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F569C9A032924C35ACE15853 /* libPods.a */; };
+		B759C1A818B75F92002A5E06 /* FWTEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B759C1A418B75F92002A5E06 /* FWTEditorViewController.m */; };
+		B759C1A918B75F92002A5E06 /* FWTiPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B759C1A518B75F92002A5E06 /* FWTiPadStoryboard.storyboard */; };
+		B759C1AA18B75F92002A5E06 /* FWTWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B759C1A718B75F92002A5E06 /* FWTWebViewController.m */; };
+		B759C1AC18B75F9C002A5E06 /* Circle_Red_S.png in Resources */ = {isa = PBXBuildFile; fileRef = B759C1AB18B75F9C002A5E06 /* Circle_Red_S.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,40 +37,40 @@
 			containerPortal = B7402BBB16C26CE70014570E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B7402BC316C26CE70014570E;
-			remoteInfo = "nsattrib-string-sample";
+			remoteInfo = NSAttributedStringDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		073F73E018B511900076E762 /* FWTiPadStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = FWTiPadStoryboard.storyboard; path = UI/FWTiPadStoryboard.storyboard; sourceTree = "<group>"; };
-		073F73E318B512D10076E762 /* FWTEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FWTEditorViewController.h; path = UI/FWTEditorViewController.h; sourceTree = "<group>"; };
-		073F73E418B512D10076E762 /* FWTEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FWTEditorViewController.m; path = UI/FWTEditorViewController.m; sourceTree = "<group>"; };
-		073F73E618B51C080076E762 /* Circle_Red_S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Circle_Red_S.png; sourceTree = "<group>"; };
-		073F73E818B51DD90076E762 /* FWTWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWTWebViewController.h; sourceTree = "<group>"; };
-		073F73E918B51DD90076E762 /* FWTWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWTWebViewController.m; sourceTree = "<group>"; };
-		073F73EC18B51F440076E762 /* FWTHTMLSyntax.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FWTHTMLSyntax.h; sourceTree = "<group>"; };
-		B7402BC416C26CE70014570E /* nsattrib-string-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nsattrib-string-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60852DE60BDF4C3493AB882A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D7FBDD638648C4855E4885 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		B7402BC416C26CE70014570E /* NSAttributedStringDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSAttributedStringDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7402BC816C26CE70014570E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B7402BCA16C26CE70014570E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B7402BCC16C26CE70014570E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B7402BD016C26CE70014570E /* nsattrib-string-sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nsattrib-string-sample-Info.plist"; sourceTree = "<group>"; };
+		B7402BD016C26CE70014570E /* NSAttributedStringDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSAttributedStringDemo-Info.plist"; sourceTree = "<group>"; };
 		B7402BD216C26CE70014570E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B7402BD416C26CE70014570E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B7402BD616C26CE70014570E /* nsattrib-string-sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nsattrib-string-sample-Prefix.pch"; sourceTree = "<group>"; };
-		B7402BE516C26CE70014570E /* nsattrib-string-sampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nsattrib-string-sampleTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7402BD616C26CE70014570E /* NSAttributedStringDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedStringDemo-Prefix.pch"; sourceTree = "<group>"; };
+		B7402BE516C26CE70014570E /* NSAttributedStringDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSAttributedStringDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7402BE616C26CE70014570E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		B7402BEE16C26CE70014570E /* nsattrib-string-sampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nsattrib-string-sampleTests-Info.plist"; sourceTree = "<group>"; };
+		B7402BEE16C26CE70014570E /* NSAttributedStringDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSAttributedStringDemoTests-Info.plist"; sourceTree = "<group>"; };
 		B7402BF016C26CE70014570E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B7402BFD16C26ED80014570E /* nsattrib-string-sampleTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "nsattrib-string-sampleTests.h"; sourceTree = "<group>"; };
-		B7402BFE16C26ED80014570E /* nsattrib-string-sampleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "nsattrib-string-sampleTests.m"; sourceTree = "<group>"; };
+		B7402BFD16C26ED80014570E /* NSAttributedStringDemoTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSAttributedStringDemoTests.h; sourceTree = "<group>"; };
+		B7402BFE16C26ED80014570E /* NSAttributedStringDemoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSAttributedStringDemoTests.m; sourceTree = "<group>"; };
 		B7402C1116C270FC0014570E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B7402C1216C270FC0014570E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B7402C1316C270FC0014570E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B7402C1716C275930014570E /* fw-shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "fw-shared.xcconfig"; sourceTree = "<group>"; };
 		B7402C2E16C2DD800014570E /* FWTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWTAppDelegate.h; sourceTree = "<group>"; };
 		B7402C2F16C2DD800014570E /* FWTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWTAppDelegate.m; sourceTree = "<group>"; };
-		F569C9A032924C35ACE15853 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F582F4F638BB4C768144B78B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		B759C1A318B75F92002A5E06 /* FWTEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FWTEditorViewController.h; path = UI/FWTEditorViewController.h; sourceTree = "<group>"; };
+		B759C1A418B75F92002A5E06 /* FWTEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FWTEditorViewController.m; path = UI/FWTEditorViewController.m; sourceTree = "<group>"; };
+		B759C1A518B75F92002A5E06 /* FWTiPadStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = FWTiPadStoryboard.storyboard; path = UI/FWTiPadStoryboard.storyboard; sourceTree = "<group>"; };
+		B759C1A618B75F92002A5E06 /* FWTWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FWTWebViewController.h; path = UI/FWTWebViewController.h; sourceTree = "<group>"; };
+		B759C1A718B75F92002A5E06 /* FWTWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FWTWebViewController.m; path = UI/FWTWebViewController.m; sourceTree = "<group>"; };
+		B759C1AB18B75F9C002A5E06 /* Circle_Red_S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Circle_Red_S.png; path = NSAttributedStringDemo/Circle_Red_S.png; sourceTree = SOURCE_ROOT; };
+		B759C1AD18B75FA1002A5E06 /* FWTHTMLSyntax.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FWTHTMLSyntax.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +81,7 @@
 				B7402BC916C26CE70014570E /* UIKit.framework in Frameworks */,
 				B7402BCB16C26CE70014570E /* Foundation.framework in Frameworks */,
 				B7402BCD16C26CE70014570E /* CoreGraphics.framework in Frameworks */,
-				C7DFCAA816994AAC84585BB9 /* libPods.a in Frameworks */,
+				94BE8D495B2D4D3E9EF5FB79 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,50 +92,30 @@
 				B7402BE716C26CE70014570E /* SenTestingKit.framework in Frameworks */,
 				B7402BE816C26CE70014570E /* UIKit.framework in Frameworks */,
 				B7402BE916C26CE70014570E /* Foundation.framework in Frameworks */,
+				5527E95F114E441F9B9510D5 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		073F73E218B511940076E762 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				073F73E018B511900076E762 /* FWTiPadStoryboard.storyboard */,
-				073F73E818B51DD90076E762 /* FWTWebViewController.h */,
-				073F73E918B51DD90076E762 /* FWTWebViewController.m */,
-				073F73E318B512D10076E762 /* FWTEditorViewController.h */,
-				073F73E418B512D10076E762 /* FWTEditorViewController.m */,
-			);
-			name = UI;
-			sourceTree = "<group>";
-		};
-		073F73EB18B51F2C0076E762 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				073F73E618B51C080076E762 /* Circle_Red_S.png */,
-				073F73EC18B51F440076E762 /* FWTHTMLSyntax.h */,
-			);
-			name = Assets;
-			sourceTree = "<group>";
-		};
 		B7402BB916C26CE70014570E = {
 			isa = PBXGroup;
 			children = (
-				B7402BCE16C26CE70014570E /* nsattrib-string-sample */,
-				B7402BEC16C26CE70014570E /* nsattrib-string-sampleTests */,
+				B7402BCE16C26CE70014570E /* NSAttributedStringDemo */,
+				B7402BEC16C26CE70014570E /* NSAttributedStringDemoTests */,
 				B7402C0016C26F8F0014570E /* Resources */,
 				B7402BC716C26CE70014570E /* Frameworks */,
 				B7402BC516C26CE70014570E /* Products */,
-				F582F4F638BB4C768144B78B /* Pods.xcconfig */,
+				A3D7FBDD638648C4855E4885 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
 		B7402BC516C26CE70014570E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B7402BC416C26CE70014570E /* nsattrib-string-sample.app */,
-				B7402BE516C26CE70014570E /* nsattrib-string-sampleTests.octest */,
+				B7402BC416C26CE70014570E /* NSAttributedStringDemo.app */,
+				B7402BE516C26CE70014570E /* NSAttributedStringDemoTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,49 +127,49 @@
 				B7402BCA16C26CE70014570E /* Foundation.framework */,
 				B7402BCC16C26CE70014570E /* CoreGraphics.framework */,
 				B7402BE616C26CE70014570E /* SenTestingKit.framework */,
-				F569C9A032924C35ACE15853 /* libPods.a */,
+				60852DE60BDF4C3493AB882A /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B7402BCE16C26CE70014570E /* nsattrib-string-sample */ = {
+		B7402BCE16C26CE70014570E /* NSAttributedStringDemo */ = {
 			isa = PBXGroup;
 			children = (
-				073F73EB18B51F2C0076E762 /* Assets */,
-				073F73E218B511940076E762 /* UI */,
+				B759C1A218B75F8C002A5E06 /* UI */,
 				B7402C2E16C2DD800014570E /* FWTAppDelegate.h */,
 				B7402C2F16C2DD800014570E /* FWTAppDelegate.m */,
+				B759C1AD18B75FA1002A5E06 /* FWTHTMLSyntax.h */,
 				B7402BCF16C26CE70014570E /* Supporting Files */,
 			);
-			path = "nsattrib-string-sample";
+			path = NSAttributedStringDemo;
 			sourceTree = "<group>";
 		};
 		B7402BCF16C26CE70014570E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				B7402C1716C275930014570E /* fw-shared.xcconfig */,
-				B7402BD016C26CE70014570E /* nsattrib-string-sample-Info.plist */,
+				B7402BD016C26CE70014570E /* NSAttributedStringDemo-Info.plist */,
 				B7402BD116C26CE70014570E /* InfoPlist.strings */,
 				B7402BD416C26CE70014570E /* main.m */,
-				B7402BD616C26CE70014570E /* nsattrib-string-sample-Prefix.pch */,
+				B7402BD616C26CE70014570E /* NSAttributedStringDemo-Prefix.pch */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B7402BEC16C26CE70014570E /* nsattrib-string-sampleTests */ = {
+		B7402BEC16C26CE70014570E /* NSAttributedStringDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				B7402BFD16C26ED80014570E /* nsattrib-string-sampleTests.h */,
-				B7402BFE16C26ED80014570E /* nsattrib-string-sampleTests.m */,
+				B7402BFD16C26ED80014570E /* NSAttributedStringDemoTests.h */,
+				B7402BFE16C26ED80014570E /* NSAttributedStringDemoTests.m */,
 				B7402BED16C26CE70014570E /* Supporting Files */,
 			);
-			path = "nsattrib-string-sampleTests";
+			path = NSAttributedStringDemoTests;
 			sourceTree = "<group>";
 		};
 		B7402BED16C26CE70014570E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B7402BEE16C26CE70014570E /* nsattrib-string-sampleTests-Info.plist */,
+				B7402BEE16C26CE70014570E /* NSAttributedStringDemoTests-Info.plist */,
 				B7402BEF16C26CE70014570E /* InfoPlist.strings */,
 			);
 			path = "Supporting Files";
@@ -197,6 +178,7 @@
 		B7402C0016C26F8F0014570E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B759C1AB18B75F9C002A5E06 /* Circle_Red_S.png */,
 				B7402C1116C270FC0014570E /* Default-568h@2x.png */,
 				B7402C1216C270FC0014570E /* Default.png */,
 				B7402C1316C270FC0014570E /* Default@2x.png */,
@@ -204,46 +186,60 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		B759C1A218B75F8C002A5E06 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B759C1A318B75F92002A5E06 /* FWTEditorViewController.h */,
+				B759C1A418B75F92002A5E06 /* FWTEditorViewController.m */,
+				B759C1A518B75F92002A5E06 /* FWTiPadStoryboard.storyboard */,
+				B759C1A618B75F92002A5E06 /* FWTWebViewController.h */,
+				B759C1A718B75F92002A5E06 /* FWTWebViewController.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B7402BC316C26CE70014570E /* nsattrib-string-sample */ = {
+		B7402BC316C26CE70014570E /* NSAttributedStringDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B7402BF716C26CE70014570E /* Build configuration list for PBXNativeTarget "nsattrib-string-sample" */;
+			buildConfigurationList = B7402BF716C26CE70014570E /* Build configuration list for PBXNativeTarget "NSAttributedStringDemo" */;
 			buildPhases = (
-				2DB9AB352CCD444C8B6B7839 /* Check Pods Manifest.lock */,
+				DDBE2C4EF6DA4355A5D41F6B /* Check Pods Manifest.lock */,
 				B7402BC016C26CE70014570E /* Sources */,
 				B7402BC116C26CE70014570E /* Frameworks */,
 				B7402BC216C26CE70014570E /* Resources */,
 				B71B013B17280F78009B2A61 /* Log build environment */,
-				E028713A7E424069B5953198 /* Copy Pods Resources */,
+				F12A635DAFDE4056BFA36412 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "nsattrib-string-sample";
-			productName = "nsattrib-string-sample";
-			productReference = B7402BC416C26CE70014570E /* nsattrib-string-sample.app */;
+			name = NSAttributedStringDemo;
+			productName = NSAttributedStringDemo;
+			productReference = B7402BC416C26CE70014570E /* NSAttributedStringDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B7402BE416C26CE70014570E /* nsattrib-string-sampleTests */ = {
+		B7402BE416C26CE70014570E /* NSAttributedStringDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B7402BFA16C26CE70014570E /* Build configuration list for PBXNativeTarget "nsattrib-string-sampleTests" */;
+			buildConfigurationList = B7402BFA16C26CE70014570E /* Build configuration list for PBXNativeTarget "NSAttributedStringDemoTests" */;
 			buildPhases = (
+				9AFF70DCC4BA4E39B9883623 /* Check Pods Manifest.lock */,
 				B7402BE016C26CE70014570E /* Sources */,
 				B7402BE116C26CE70014570E /* Frameworks */,
 				B7402BE216C26CE70014570E /* Resources */,
 				B7402BE316C26CE70014570E /* ShellScript */,
+				5CBC099A394A466593D05710 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				B7402BEB16C26CE70014570E /* PBXTargetDependency */,
 			);
-			name = "nsattrib-string-sampleTests";
-			productName = "nsattrib-string-sampleTests";
-			productReference = B7402BE516C26CE70014570E /* nsattrib-string-sampleTests.octest */;
+			name = NSAttributedStringDemoTests;
+			productName = NSAttributedStringDemoTests;
+			productReference = B7402BE516C26CE70014570E /* NSAttributedStringDemoTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -256,7 +252,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "";
 			};
-			buildConfigurationList = B7402BBE16C26CE70014570E /* Build configuration list for PBXProject "nsattrib-string-sample" */;
+			buildConfigurationList = B7402BBE16C26CE70014570E /* Build configuration list for PBXProject "NSAttributedStringDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -268,8 +264,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B7402BC316C26CE70014570E /* nsattrib-string-sample */,
-				B7402BE416C26CE70014570E /* nsattrib-string-sampleTests */,
+				B7402BC316C26CE70014570E /* NSAttributedStringDemo */,
+				B7402BE416C26CE70014570E /* NSAttributedStringDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -280,12 +276,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7402BD316C26CE70014570E /* InfoPlist.strings in Resources */,
-				073F73E118B511900076E762 /* FWTiPadStoryboard.storyboard in Resources */,
+				B759C1A918B75F92002A5E06 /* FWTiPadStoryboard.storyboard in Resources */,
 				B7402C1416C270FC0014570E /* Default-568h@2x.png in Resources */,
 				B7402C1516C270FC0014570E /* Default.png in Resources */,
 				B7402C1616C270FC0014570E /* Default@2x.png in Resources */,
 				B7402C1816C275940014570E /* fw-shared.xcconfig in Resources */,
-				073F73E718B51C080076E762 /* Circle_Red_S.png in Resources */,
+				B759C1AC18B75F9C002A5E06 /* Circle_Red_S.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +297,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2DB9AB352CCD444C8B6B7839 /* Check Pods Manifest.lock */ = {
+		5CBC099A394A466593D05710 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AFF70DCC4BA4E39B9883623 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -343,7 +354,22 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
-		E028713A7E424069B5953198 /* Copy Pods Resources */ = {
+		DDBE2C4EF6DA4355A5D41F6B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F12A635DAFDE4056BFA36412 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -365,10 +391,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				073F73E518B512D10076E762 /* FWTEditorViewController.m in Sources */,
+				B759C1A818B75F92002A5E06 /* FWTEditorViewController.m in Sources */,
 				B7402BD516C26CE70014570E /* main.m in Sources */,
 				B7402C3016C2DD800014570E /* FWTAppDelegate.m in Sources */,
-				073F73EA18B51DD90076E762 /* FWTWebViewController.m in Sources */,
+				B759C1AA18B75F92002A5E06 /* FWTWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7402BFF16C26ED80014570E /* nsattrib-string-sampleTests.m in Sources */,
+				B7402BFF16C26ED80014570E /* NSAttributedStringDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,7 +411,7 @@
 /* Begin PBXTargetDependency section */
 		B7402BEB16C26CE70014570E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B7402BC316C26CE70014570E /* nsattrib-string-sample */;
+			target = B7402BC316C26CE70014570E /* NSAttributedStringDemo */;
 			targetProxy = B7402BEA16C26CE70014570E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -442,17 +468,15 @@
 		};
 		B71B013717280481009B2A61 /* Testing */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F582F4F638BB4C768144B78B /* Pods.xcconfig */;
+			baseConfigurationReference = A3D7FBDD638648C4855E4885 /* Pods.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "\"${PODS_ROOT}\"/**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "nsattrib-string-sample/Supporting Files/nsattrib-string-sample-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/nsattrib-string-sample/Supporting Files/nsattrib-string-sample-Info.plist";
-				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/nsattrib-string-sample/Supporting Files/info.plist.h";
+				GCC_PREFIX_HEADER = "NSAttributedStringDemo/Supporting Files/NSAttributedStringDemo-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/NSAttributedStringDemo/Supporting Files/NSAttributedStringDemo-Info.plist";
+				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/NSAttributedStringDemo/Supporting Files/info.plist.h";
 				INFOPLIST_PREPROCESS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = "\"${PODS_ROOT}\"/**";
-				PRODUCT_NAME = "nsattrib-string-sample";
+				PRODUCT_NAME = NSAttributedStringDemo;
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
@@ -460,16 +484,17 @@
 		};
 		B71B013817280481009B2A61 /* Testing */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3D7FBDD638648C4855E4885 /* Pods.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/nsattrib-string-sample.app/nsattrib-string-sample";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSAttributedStringDemo.app/NSAttributedStringDemo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "nsattrib-string-sample/Supporting Files/nsattrib-string-sample-Prefix.pch";
-				INFOPLIST_FILE = "nsattrib-string-sampleTests/Supporting Files/nsattrib-string-sampleTests-Info.plist";
-				PRODUCT_NAME = "nsattrib-string-sampleTests";
+				GCC_PREFIX_HEADER = "NSAttributedStringDemo/Supporting Files/NSAttributedStringDemo-Prefix.pch";
+				INFOPLIST_FILE = "NSAttributedStringDemoTests/Supporting Files/NSAttributedStringDemoTests-Info.plist";
+				PRODUCT_NAME = NSAttributedStringDemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -531,17 +556,15 @@
 		};
 		B7402BF816C26CE70014570E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F582F4F638BB4C768144B78B /* Pods.xcconfig */;
+			baseConfigurationReference = A3D7FBDD638648C4855E4885 /* Pods.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "\"${PODS_ROOT}\"/**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "nsattrib-string-sample/Supporting Files/nsattrib-string-sample-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/nsattrib-string-sample/Supporting Files/nsattrib-string-sample-Info.plist";
-				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/nsattrib-string-sample/Supporting Files/info.plist.h";
+				GCC_PREFIX_HEADER = "NSAttributedStringDemo/Supporting Files/NSAttributedStringDemo-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/NSAttributedStringDemo/Supporting Files/NSAttributedStringDemo-Info.plist";
+				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/NSAttributedStringDemo/Supporting Files/info.plist.h";
 				INFOPLIST_PREPROCESS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = "\"${PODS_ROOT}\"/**";
-				PRODUCT_NAME = "nsattrib-string-sample";
+				PRODUCT_NAME = NSAttributedStringDemo;
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
@@ -549,17 +572,15 @@
 		};
 		B7402BF916C26CE70014570E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F582F4F638BB4C768144B78B /* Pods.xcconfig */;
+			baseConfigurationReference = A3D7FBDD638648C4855E4885 /* Pods.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "\"${PODS_ROOT}\"/**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "nsattrib-string-sample/Supporting Files/nsattrib-string-sample-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/nsattrib-string-sample/Supporting Files/nsattrib-string-sample-Info.plist";
-				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/nsattrib-string-sample/Supporting Files/info.plist.h";
+				GCC_PREFIX_HEADER = "NSAttributedStringDemo/Supporting Files/NSAttributedStringDemo-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/NSAttributedStringDemo/Supporting Files/NSAttributedStringDemo-Info.plist";
+				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/NSAttributedStringDemo/Supporting Files/info.plist.h";
 				INFOPLIST_PREPROCESS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = "\"${PODS_ROOT}\"/**";
-				PRODUCT_NAME = "nsattrib-string-sample";
+				PRODUCT_NAME = NSAttributedStringDemo;
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
@@ -567,16 +588,17 @@
 		};
 		B7402BFB16C26CE70014570E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3D7FBDD638648C4855E4885 /* Pods.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/nsattrib-string-sample.app/nsattrib-string-sample";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSAttributedStringDemo.app/NSAttributedStringDemo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "nsattrib-string-sample/Supporting Files/nsattrib-string-sample-Prefix.pch";
-				INFOPLIST_FILE = "nsattrib-string-sampleTests/Supporting Files/nsattrib-string-sampleTests-Info.plist";
-				PRODUCT_NAME = "nsattrib-string-sampleTests";
+				GCC_PREFIX_HEADER = "NSAttributedStringDemo/Supporting Files/NSAttributedStringDemo-Prefix.pch";
+				INFOPLIST_FILE = "NSAttributedStringDemoTests/Supporting Files/NSAttributedStringDemoTests-Info.plist";
+				PRODUCT_NAME = NSAttributedStringDemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -584,16 +606,17 @@
 		};
 		B7402BFC16C26CE70014570E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3D7FBDD638648C4855E4885 /* Pods.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/nsattrib-string-sample.app/nsattrib-string-sample";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSAttributedStringDemo.app/NSAttributedStringDemo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "nsattrib-string-sample/Supporting Files/nsattrib-string-sample-Prefix.pch";
-				INFOPLIST_FILE = "nsattrib-string-sampleTests/Supporting Files/nsattrib-string-sampleTests-Info.plist";
-				PRODUCT_NAME = "nsattrib-string-sampleTests";
+				GCC_PREFIX_HEADER = "NSAttributedStringDemo/Supporting Files/NSAttributedStringDemo-Prefix.pch";
+				INFOPLIST_FILE = "NSAttributedStringDemoTests/Supporting Files/NSAttributedStringDemoTests-Info.plist";
+				PRODUCT_NAME = NSAttributedStringDemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -602,7 +625,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B7402BBE16C26CE70014570E /* Build configuration list for PBXProject "nsattrib-string-sample" */ = {
+		B7402BBE16C26CE70014570E /* Build configuration list for PBXProject "NSAttributedStringDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B7402BF516C26CE70014570E /* Debug */,
@@ -612,7 +635,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B7402BF716C26CE70014570E /* Build configuration list for PBXNativeTarget "nsattrib-string-sample" */ = {
+		B7402BF716C26CE70014570E /* Build configuration list for PBXNativeTarget "NSAttributedStringDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B7402BF816C26CE70014570E /* Debug */,
@@ -622,7 +645,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B7402BFA16C26CE70014570E /* Build configuration list for PBXNativeTarget "nsattrib-string-sampleTests" */ = {
+		B7402BFA16C26CE70014570E /* Build configuration list for PBXNativeTarget "NSAttributedStringDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B7402BFB16C26CE70014570E /* Debug */,

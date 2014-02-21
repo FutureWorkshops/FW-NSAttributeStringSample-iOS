@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B7402BC316C26CE70014570E"
-               BuildableName = "nsattrib-string-sample.app"
-               BlueprintName = "nsattrib-string-sample"
-               ReferencedContainer = "container:nsattrib-string-sample.xcodeproj">
+               BuildableName = "NSAttributedStringDemo.app"
+               BlueprintName = "NSAttributedStringDemo"
+               ReferencedContainer = "container:NSAttributedStringDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B7402BE416C26CE70014570E"
-               BuildableName = "nsattrib-string-sampleTests.octest"
-               BlueprintName = "nsattrib-string-sampleTests"
-               ReferencedContainer = "container:nsattrib-string-sample.xcodeproj">
+               BuildableName = "NSAttributedStringDemoTests.octest"
+               BlueprintName = "NSAttributedStringDemoTests"
+               ReferencedContainer = "container:NSAttributedStringDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B7402BC316C26CE70014570E"
-            BuildableName = "nsattrib-string-sample.app"
-            BlueprintName = "nsattrib-string-sample"
-            ReferencedContainer = "container:nsattrib-string-sample.xcodeproj">
+            BuildableName = "NSAttributedStringDemo.app"
+            BlueprintName = "NSAttributedStringDemo"
+            ReferencedContainer = "container:NSAttributedStringDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -54,7 +54,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Testing"
+      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B7402BC316C26CE70014570E"
-            BuildableName = "nsattrib-string-sample.app"
-            BlueprintName = "nsattrib-string-sample"
-            ReferencedContainer = "container:nsattrib-string-sample.xcodeproj">
+            BuildableName = "NSAttributedStringDemo.app"
+            BlueprintName = "NSAttributedStringDemo"
+            ReferencedContainer = "container:NSAttributedStringDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -89,9 +89,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B7402BC316C26CE70014570E"
-            BuildableName = "nsattrib-string-sample.app"
-            BlueprintName = "nsattrib-string-sample"
-            ReferencedContainer = "container:nsattrib-string-sample.xcodeproj">
+            BuildableName = "NSAttributedStringDemo.app"
+            BlueprintName = "NSAttributedStringDemo"
+            ReferencedContainer = "container:NSAttributedStringDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

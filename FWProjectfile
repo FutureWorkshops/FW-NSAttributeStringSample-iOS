@@ -1,14 +1,14 @@
-project_name: nsattrib-string-sample # required
+project_name: NSAttributedStringDemo # required
 class_prefix: FWT # required
-# target_name: nsattrib-string-sample # default: project_name
-# binary_name: nsattrib-string-sample # default: project_name
+# target_name: NSAttributedStringDemo # default: project_name
+# binary_name: NSAttributedStringDemo # default: project_name
 # xcode_scheme:
-#     develop:nsattrib-string-sample # default: project_name
-#     testing:nsattrib-string-sample-Testing # default: project_name-Testing
-#     release:nsattrib-string-sample-Release # default: project_name-Release
-# tests_target_name: nsattrib-string-sampleTests # default: project_nameTests
-# xcode_workspace: nsattrib-string-sample.xcworkspace # default: [project_root]/project_name.xcworkspace
-# xcode_project: nsattrib-string-sample/nsattrib-string-sample.xcodeproj # default: [project_root]/project_name/project_name.xcproj
-# source_root: nsattrib-string-sample/nsattrib-string-sample # default: [project_root]/project_name/target_name/
-# tests_source_root: nsattrib-string-sample/nsattrib-string-sampleTests # default: [project_root]/project_name/tests_target_name/
-# frank_root: nsattrib-string-sample/nsattrib-string-sample/Frank # default: [project_root]/project_name/target_name/Frank
+#     develop:NSAttributedStringDemo # default: project_name
+#     testing:NSAttributedStringDemo-Testing # default: project_name-Testing
+#     release:NSAttributedStringDemo-Release # default: project_name-Release
+# tests_target_name: NSAttributedStringDemoTests # default: project_nameTests
+# xcode_workspace: NSAttributedStringDemo.xcworkspace # default: [project_root]/project_name.xcworkspace
+# xcode_project: NSAttributedStringDemo/NSAttributedStringDemo.xcodeproj # default: [project_root]/project_name/project_name.xcproj
+# source_root: NSAttributedStringDemo/NSAttributedStringDemo # default: [project_root]/project_name/target_name/
+# tests_source_root: NSAttributedStringDemo/NSAttributedStringDemoTests # default: [project_root]/project_name/tests_target_name/
+# frank_root: NSAttributedStringDemo/NSAttributedStringDemo/Frank # default: [project_root]/project_name/target_name/Frank
